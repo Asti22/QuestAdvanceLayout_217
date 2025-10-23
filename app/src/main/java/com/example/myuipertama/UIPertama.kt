@@ -45,7 +45,9 @@ fun ActivitasPertama(modifier: Modifier){
             .padding(all = 12.dp),
             colors = CardDefaults.cardColors(
                 containerColor = Color.DarkGray
-            )) {
+            ),
+            shape = RoundedCornerShape(16.dp),
+        ) {
             Row (){val gambar = painterResource(id = R.drawable.LogoUmy)
                 Image(
                     painter = gambar,
