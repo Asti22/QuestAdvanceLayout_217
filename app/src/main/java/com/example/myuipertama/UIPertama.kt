@@ -47,6 +47,7 @@ fun ActivitasPertama(modifier: Modifier){
                 containerColor = Color.DarkGray
             ),
             shape = RoundedCornerShape(16.dp),
+            elevation = CardDefaults.cardElevation(6.dp)
         ) {
             Row (){val gambar = painterResource(id = R.drawable.LogoUmy)
                 Image(
