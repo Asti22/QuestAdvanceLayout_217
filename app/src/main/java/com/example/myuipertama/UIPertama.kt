@@ -99,7 +99,10 @@ fun ActivitasPertama(modifier: Modifier){
                 Column (){
                     Text(
                         text = stringResource(id = R.string.nama),
-                        fontSize =
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.Black,
+                        modifier = Modifier.padding(top = 15.dp)
                     )
                 }
             }
