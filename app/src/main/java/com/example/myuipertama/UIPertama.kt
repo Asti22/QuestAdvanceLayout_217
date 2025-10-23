@@ -110,6 +110,9 @@ fun ActivitasPertama(modifier: Modifier){
                         color = Color.Black,
                         modifier = Modifier.padding(top = 10.dp)
                     )
+                    Text(
+                        text = stringResource(id = R.string.nomer)
+                    )
                 }
             }
         }
