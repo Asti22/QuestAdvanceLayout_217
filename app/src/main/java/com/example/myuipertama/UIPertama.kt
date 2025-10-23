@@ -119,6 +119,7 @@ fun ActivitasPertama(modifier: Modifier){
                 }
             }
         }
+        Spacer(modifier = Modifier.height(height = 10.dp))
 
         Box(
             modifier = Modifier
