@@ -3,7 +3,13 @@
     <string name="prodi">Teknologi Informasi</string>
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
     <string name="nama">Asti Nurul Utami</string>
-    <string name="alamat">Kebumen, Jawa Tengan</string>
-    <string name="copy">copyright, 2025</string>
-    <string name="nomer">Isi no handphone</string>
+    <string name="nama1">Aldys Igidia Triatmaja</string>
+    <string name="nama2">Shenny Nur Hidayah</string>
+    <string name="alamat">Kebumen,Jawa Tengan</string>
+    <string name="alamat1">Wonosobo,Jawa Tengan</string>
+    <string name="alamat2">Kebumen,Jawa Tengan</string>
+    <string name="copy">copyright,2025</string>
+    <string name="nomer1">0858-7037-0028</string>
+    <string name="nomer2">0878-7497-7115</string>
+
 </resources>

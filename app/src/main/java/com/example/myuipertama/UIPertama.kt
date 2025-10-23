@@ -107,19 +107,19 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 Spacer(modifier = Modifier.width(20.dp))
                 Column {
                     Text(
-                        text = stringResource(id = R.string.nama),
+                        text = stringResource(id = R.string.nama1),
                         fontSize = 22.sp,
                         fontFamily = FontFamily.Cursive,
                         color = Color.White
                     )
                     Text(
-                        text = stringResource(id = R.string.alamat),
+                        text = stringResource(id = R.string.alamat1),
                         fontSize = 16.sp,
                         color = Color.Yellow,
                         modifier = Modifier.padding(top = 4.dp)
                     )
                     Text(
-                        text = stringResource(id = R.string.nomer),
+                        text = stringResource(id = R.string.nomer1),
                         fontSize = 16.sp,
                         color = Color.White,
                         modifier = Modifier.padding(top = 4.dp)
@@ -156,21 +156,21 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 Spacer(modifier = Modifier.width(20.dp))
                 Column {
                     Text(
-                        text = stringResource(id = R.string.nama),
+                        text = stringResource(id = R.string.nama2),
                         fontSize = 22.sp,
                         fontFamily = FontFamily.Cursive,
-                        color = Color.Black
+                        color = Color.White
                     )
                     Text(
-                        text = stringResource(id = R.string.alamat),
+                        text = stringResource(id = R.string.alamat2),
                         fontSize = 16.sp,
-                        color = Color.Black,
+                        color = Color.Yellow,
                         modifier = Modifier.padding(top = 4.dp)
                     )
                     Text(
-                        text = stringResource(id = R.string.nomer),
+                        text = stringResource(id = R.string.nomer2),
                         fontSize = 16.sp,
-                        color = Color.Black,
+                        color = Color.White,
                         modifier = Modifier.padding(top = 4.dp)
                     )
                 }
