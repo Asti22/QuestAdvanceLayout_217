@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Text
@@ -49,7 +50,10 @@ fun ActivitasPertama(modifier: Modifier){
             shape = RoundedCornerShape(16.dp),
             elevation = CardDefaults.cardElevation(6.dp)
         ) {
-            Row (){val gambar = painterResource(id = R.drawable.LogoUmy)
+            Row (verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.padding(10.dp) )
+            {val gambar = painterResource(id = R.drawable.LogoUmy)
+
                 Image(
                     painter = gambar,
                     contentDescription = null,
