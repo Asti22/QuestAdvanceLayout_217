@@ -116,6 +116,7 @@ fun ActivitasPertama(modifier: Modifier){
                         color = Color.Black,
                         modifier = Modifier.padding(top = 10.dp)
                     )
+                    Spacer(modifier = Modifier.width(width = 30.dp))
                 }
             }
         }
