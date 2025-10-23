@@ -56,7 +56,7 @@ fun ActivitasPertama(modifier: Modifier){
         ) {
             Row (verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.padding(10.dp) )
-            {val gambar = painterResource(id = R.drawable.LogoUmy)
+            {val gambar = painterResource(id = R.drawable.logo_umy)
 
                 Image(
                     painter = gambar,
